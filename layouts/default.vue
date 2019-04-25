@@ -16,9 +16,9 @@
       <v-toolbar-side-icon @click="drawer = !drawer" />
       <v-toolbar-title v-text="title" />
       <v-spacer />
-      <v-btn icon @click.stop="rightDrawer = !rightDrawer">
+      <!-- <v-btn icon @click.stop="rightDrawer = !rightDrawer">
         <v-icon>menu</v-icon>
-      </v-btn>
+      </v-btn> -->
     </v-toolbar>
     <v-content>
       <v-container>
@@ -36,7 +36,7 @@
       </v-list>
     </v-navigation-drawer>
     <v-footer inset :fixed="fixed" app>
-      <span style="margin-left: 2em;">Created by the Geniuses over at <b>SWAT</b></span>
+      <span style="margin-left: 2em;">Created by the Geniuses over at <b><i>SWAT</i></b></span>
     </v-footer>
   </v-app>
 </template>
@@ -58,11 +58,16 @@ export default {
           icon: 'bubble_chart',
           title: 'Inspire',
           to: '/inspire'
+        },
+        {
+          icon: 'code',
+          title: 'Tier 2 Tool',
+          to: '/t2tool'
         }
       ],
       right: true,
       rightDrawer: false,
-      title: 'Swat Flow Docs'
+      title: 'FlowTool Docs'
     }
   }
 }

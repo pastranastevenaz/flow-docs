@@ -10,13 +10,17 @@
       md6
     >
       <div class="text-xs-center">
-        <logo />
+        <!-- <logo /> -->
         <vuetify-logo />
+        <br>
       </div>
       <v-card>
-        <v-card-title class="headline">Welcome to the Vuetify + Nuxt.js template</v-card-title>
+        <v-card-title class="headline">FlowTool</v-card-title>
         <v-card-text>
-          <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
+          <p>
+            Tribal knowledge however vast it may be, has one fatal flaw that handicaps every single person immersed within it. This affects some more than others but everyone none the less. You don’t know what you don’t know…
+          </p>
+          <!-- <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
           <p>For more information on Vuetify, check out the <a
             href="https://vuetifyjs.com"
             target="_blank"
@@ -44,16 +48,11 @@
           <a
             href="https://github.com/nuxt/nuxt.js"
             target="_blank"
-          >Nuxt GitHub</a>
+          >Nuxt GitHub</a> -->
         </v-card-text>
         <v-card-actions>
           <v-spacer />
-          <v-btn
-            color="primary"
-            flat
-            nuxt
-            to="/inspire"
-          >Continue</v-btn>
+          <v-btn color="primary" flat nuxt to="/inspire">Continue</v-btn>
         </v-card-actions>
       </v-card>
     </v-flex>
